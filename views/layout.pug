@@ -14,36 +14,38 @@ html(lang='en')
 
         title Appointments
     body
-    nav.navbar.navbar-default
-    .container
-    .navbar-header 
-    .navbar-brand(href='/') Appointment Reminders
-    div 
-    ul.nav.navbar-nav 
-    li 
-    a(href='/') 
-    | Index 
-    li 
-    a(href='/appointments/create')
-    | New appointment 
+        nav.navbar.navbar-default
+            .container
+                .navbar-header 
+                    .navbar-brand(href='/') Appointment Reminders
+                div 
+                    ul.nav.navbar-nav 
+                        li
+ 
+                             a(href='/') 
+                                | Index 
+                        li 
+                             a(href='/appointments/create')
+                                | New appointment 
 
-    .container
-    .row 
-    .col-lg-9 
-    block content
-    .col-lg-3
+                .container
+                    .row 
+                        .col-lg-9 
+                        block content
+                        .col-lg-3
 
-    hr
-    footer 
-    |Made with 
-    i.fa.fa-heart 
-    | by winniekagz
-    | 
-    a(href='http://www.twilio.com') @twilio
+                    hr
+                    footer 
+                        |Made with 
+                        i.fa.fa-heart 
+                        | by winniekagz
+                        |
+                        | 
+                        a(href='http://www.twilio.com') @twilio
 
-    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.1.2/parsley.min.js')
-    block scripts
+                        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
+                        script(src='https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.1.2/parsley.min.js')
+                        block scripts
 
     
      
